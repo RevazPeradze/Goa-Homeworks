@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-div {
+    width: 60%;
+    height: 60%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.child-div {
+    position: absolute;
+}
+
+#child1 {
+    width: 50%;
+    height: 50%;
+    background-color: #ff5733;
+}
+
+#child2 {
+    width: 40%;
+    height: 40%;
+    background-color: #33ff57;
+}
+
+#child3 {
+    width: 30%;
+    height: 30%;
+    background-color: #3357ff;
+}

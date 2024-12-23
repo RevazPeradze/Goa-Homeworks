@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: rgb(245, 245, 245);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        p {
+            border: 2px solid rgb(100, 100, 100);
+            padding: 10px;
+            margin: 10px 0;
+            color: rgb(50, 50, 50);
+            background-color: rgb(230, 230, 230);
+            transition: background-color 0.3s, color 0.3s;
+        }
+        p:hover {
+            background-color: rgb(200, 200, 250);
+            color: rgb(20, 20, 80);
+        }
+
+        .image-container img {
+            border: 5px solid rgb(150, 150, 150);
+            margin: 10px;
+            width: 200px;
+            height: auto;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+        .image-container img:hover {
+            transform: scale(1.1);
+            border-color: rgb(80, 80, 200);
+        }
+
+        button {
+            border: 2px solid rgb(80, 150, 80);
+            padding: 10px 20px;
+            margin: 10px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(80, 150, 80);
+            cursor: pointer;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+        button:hover {
+            background-color: rgb(60, 120, 60);
+            border-color: rgb(50, 100, 50);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Styled Paragraphs</h1>
+        <p>This is paragraph 1.</p>
+        <p>This is paragraph 2.</p>
+        <p>This is paragraph 3.</p>
+        <p>This is paragraph 4.</p>
+        <p>This is paragraph 5.</p>
+        <p>This is paragraph 6.</p>
+        <p>This is paragraph 7.</p>
+        <p>This is paragraph 8.</p>
+        <p>This is paragraph 9.</p>
+        <p>This is paragraph 10.</p>
+        <p>This is paragraph 11.</p>
+        <p>This is paragraph 12.</p>
+        <p>This is paragraph 13.</p>
+        <p>This is paragraph 14.</p>
+        <p>This is paragraph 14.</p>
+        <p>This is paragraph 16.</p>
+        <p>This is paragraph 17.</p>
+        <p>This is paragraph 18.</p>
+        <p>This is paragraph 19.</p>
+        <p>This is paragraph 20.</p>
+
+        <h1>Styled Images</h1>
+        <div class="image-container">
+            <img src="Image 1.jpg" alt="Image 1">
+            <img src="Image 2.jpg" alt="Image 2">
+            <img src="Image 3.jpg" alt="Image 3">
+            <img src="Image 4.jpg" alt="Image 4">
+            <img src="Image 5.jpg" alt="Image 5">
+        </div>
+
+        <h1>Buttons</h1>
+        <button>Button 1</button>
+        <button>Button 2</button>
+        <button>Button 3</button>
+        <button>Button 4</button>
+        <button>Button 5</button>
+    </div>
+</body>
+</html>

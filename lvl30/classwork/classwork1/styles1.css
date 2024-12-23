@@ -1,0 +1,15 @@
+.image {
+    width: 50%;
+  }
+  
+  .parent {
+    width: 200px;
+    height: 200px;
+    background: lightgray;
+  }
+  
+  .child {
+    width: 50%;
+    height: 50%;
+    background: green;
+  } 

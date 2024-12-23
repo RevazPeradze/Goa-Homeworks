@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Image Changer</title>
+    <style>
+        img {
+            display: none;
+            max-width: 100%;
+            height: auto;
+        }
+        #img1:checked ~ .image1,
+        #img2:checked ~ .image2 {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Changer</h1>
+    <input type="radio" id="img1" name="images" checked>
+    <input type="radio" id="img2" name="images">
+
+    <img src="image1.jpg" alt="Image 1" class="image1">
+    <img src="image2.jpg" alt="Image 2" class="image2">
+
+    <label for="img1">Image 1</label>
+    <label for="img2">Image 2</label>
+</body>
+</html>

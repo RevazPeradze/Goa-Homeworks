@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>facebook</h1>
+            <p>Connect with friends and the world around you on Facebook.</p>
+        </div>
+        <div class="signup-box">
+            <h2>Create an account</h2>
+            <p>It’s quick and easy.</p>
+            <form>
+                <div class="input-group">
+                    <input type="text" placeholder="First name" required>
+                    <input type="text" placeholder="Last name" required>
+                </div>
+                <input type="email" placeholder="Mobile number or email" required>
+                <input type="password" placeholder="New password" required>
+                <label for="birthday">Birthday</label>
+                <input type="date" id="birthday" required>
+                <div class="gender">
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="custom"> Custom</label>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+            <p class="terms">
+                By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
