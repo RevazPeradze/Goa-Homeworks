@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ordered, .unordered {
+    width: 48%;
+}
+
+.decimal {
+    list-style-type: decimal;
+    color: #007bff;
+}
+
+.lower-roman {
+    list-style-type: lower-roman;
+    color: #ff007b;
+}
+
+.upper-alpha {
+    list-style-type: upper-alpha;
+    color: #ff8c00;
+}
+
+.lower-latin {
+    list-style-type: lower-latin;
+    color: #28a745;
+}
+
+.disc {
+    list-style-type: disc;
+    color: #007bff;
+}
+
+.square {
+    list-style-type: square;
+    color: #ff007b;
+}
+
+.circle {
+    list-style-type: circle;
+    color: #28a745;
+}
+
+.styled-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.styled-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+.styled-form input,
+.styled-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.styled-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.styled-form button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.styled-form button:hover {
+    background: #0056b3;
+}
