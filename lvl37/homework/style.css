@@ -16,5 +16,5 @@ img {
     border: 5px solid black; /* Border - გარშემო ჩარჩო */
     
     display: block; /* Block ელემენტი, რომ ცენტრში გასწორდეს */
-    margin: 50px auto; /* Margin - გარე სივრცე, auto ნიშნავს ცენტრში გასწორებას */
+    margin: 50px auto;
 }
