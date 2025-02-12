@@ -1,0 +1,13 @@
+.block-to-inline {
+    display: inline;
+    background-color: lightcoral;
+    margin: 5px;
+    padding: 5px;
+}
+
+.inline-to-block {
+    display: block;
+    background-color: lightblue;
+    margin: 5px 0;
+    padding: 5px;
+}

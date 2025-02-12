@@ -1,0 +1,58 @@
+.cube-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.cube {
+    width: 50px;
+    height: 50px;
+}
+
+.red { background-color: red; }
+.blue { background-color: blue; }
+.green { background-color: green; }
+.yellow { background-color: yellow; }
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-box {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    margin: 5px 0;
+}
+
+.wrap-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrap-container p {
+    width: 100px;
+    margin: 5px;
+    background-color: lightgray;
+}
+
+.shrink-container {
+    display: flex;
+}
+
+.shrink-container p {
+    flex-shrink: 1;
+    width: 200px;
+    background-color: lightblue;
+    margin: 5px;
+}
+
+.grow-container {
+    display: flex;
+}
+
+.grow-container p {
+    flex-grow: 1;
+    background-color: lightgreen;
+    margin: 5px;
+}
