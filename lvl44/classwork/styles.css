@@ -1,0 +1,21 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background: gray;
+}
+
+.translate {
+    transform: translate(50px, 50px);
+}
+
+.scale {
+    transform: scale(1.5);
+}
+
+.rotate {
+    transform: rotate(45deg);
+}
+
+.all {
+    transform: translate(50px, 50px) scale(1.2) rotate(30deg);
+}
