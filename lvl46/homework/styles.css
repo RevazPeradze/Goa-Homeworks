@@ -1,0 +1,77 @@
+.color-flip {
+    width: 200px;
+    height: 200px;
+    background: red;
+    animation: turnBlue 2s forwards;
+  }
+  
+  @keyframes turnBlue {
+    to {
+      background: blue;
+    }
+  }
+  
+  .circle-bounce {
+    width: 90px;
+    height: 90px;
+    background: blue;
+    border-radius: 50%;
+    position: relative;
+    animation: jumpTrack 1s infinite;
+  }
+  
+  @keyframes jumpTrack {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: 120px;
+    }
+    100% {
+      top: 0;
+    }
+  }
+  
+  .spin-block {
+    width: 200px;
+    height: 200px;
+    background: #444;
+    animation: rotateSpin 2s forwards;
+  }
+  
+  @keyframes rotateSpin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .tone-text {
+    font-size: 25px;
+    color: navy;
+    animation: switchColor 3s infinite alternate;
+  }
+  
+  @keyframes switchColor {
+    to {
+      color: crimson;
+    }
+  }
+  
+  .stretch-box {
+    width: 200px;
+    height: 200px;
+    background: teal;
+    animation: growShrinkTwice 3s forwards;
+  }
+  
+  @keyframes growShrinkTwice {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(0.5);
+    }
+  }  

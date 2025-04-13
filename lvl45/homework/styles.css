@@ -1,0 +1,77 @@
+.fade-box {
+    width: 200px;
+    height: 200px;
+    background: firebrick;
+    animation: colorShift 2s forwards;
+  }
+  
+  @keyframes colorShift {
+    to {
+      background: steelblue;
+    }
+  }
+  
+  .jump-circle {
+    width: 85px;
+    height: 85px;
+    background: cornflowerblue;
+    border-radius: 50%;
+    position: relative;
+    animation: bounceLoop 1s infinite;
+  }
+  
+  @keyframes bounceLoop {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: 110px;
+    }
+    100% {
+      top: 0;
+    }
+  }
+  
+  .turn-cube {
+    width: 200px;
+    height: 200px;
+    background: dimgray;
+    animation: rotateAround 2s forwards;
+  }
+  
+  @keyframes rotateAround {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .flash-line {
+    font-size: 26px;
+    color: darkslateblue;
+    animation: glowChange 3s infinite alternate;
+  }
+  
+  @keyframes glowChange {
+    to {
+      color: orangered;
+    }
+  }
+  
+  .zoom-panel {
+    width: 200px;
+    height: 200px;
+    background: darkcyan;
+    animation: scaleFlip 3s forwards;
+  }
+  
+  @keyframes scaleFlip {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.4);
+    }
+    100% {
+      transform: scale(0.5);
+    }
+  }  
