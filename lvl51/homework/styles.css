@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+.cover {
+    background: url('a6388d02-9406-43ec-83af-590ac65db48c.png') no-repeat center/cover;
+    height: 100vh;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+.nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}

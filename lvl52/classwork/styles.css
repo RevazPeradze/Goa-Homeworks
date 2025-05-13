@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  height: 30px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav p {
+  margin: 0;
+}
+
+button {
+  background: black;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+}
+
+.main {
+  display: flex;
+  padding: 40px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.left h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.right img {
+  width: 100%;
+  max-width: 500px;
+}

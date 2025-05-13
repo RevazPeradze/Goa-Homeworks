@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img id="a" src="photo1.jpg">
+  <img id="b" src="photo2.jpg">
+  <button onclick="alert('Be careful!')">Warn</button>
+  <button onclick="s('a')">Resize 1</button>
+  <button onclick="s('b')">Resize 2</button>
+  <button onclick="c('a','photo1b.jpg')">Src 1</button>
+  <button onclick="c('b','photo2b.jpg')">Src 2</button>
+  <button onclick="b()">Color</button>
+
+  <script>
+    function s(id){let i=document.getElementById(id);i.style.width=i.style.width==='200px'?'300px':'200px';}
+    function c(i,p){document.getElementById(i).src=p;}
+    function b(){document.querySelector('button').style.background='red';}
+  </script>
+</body>
+</html>

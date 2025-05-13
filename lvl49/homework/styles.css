@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  padding-top: 100px;
+  background: #f0f0f0;
+  font-family: sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: none;
+  margin: 10px;
+}
