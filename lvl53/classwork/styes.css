@@ -1,0 +1,39 @@
+.lesson-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1E1E1E;
+  padding: 20px 25px;
+  border-radius: 8px;
+  max-width: 700px;
+  color: #E5E5E5;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.lesson-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.lesson-info {
+  flex-grow: 1;
+  margin-left: 16px;
+}
+
+.lesson-label {
+  font-size: 12px;
+  color: #9C9C9C;
+  display: block;
+}
+
+.lesson-title {
+  font-size: 18px;
+  margin: 4px 0 0;
+  color: #EDEDED;
+  font-weight: 500;
+}
+
+.check-icon {
+  width: 18px;
+  height: 18px;
+}

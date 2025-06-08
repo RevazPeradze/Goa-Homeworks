@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fff9f2;
+  color: #423f3a;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  font-size: 15px;
+  background-color: #fff9f2;
+}
+
+.nav-left a,
+.nav-right a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #423f3a;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero img {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  padding: 0 10%;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 15px;
+  color: #666;
+}
+
+button {
+  background-color: #fbe0b5;
+  color: #423f3a;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.info {
+  text-align: center;
+  margin: 50px 20px;
+}
+
+.info button {
+  background-color: #dcebdc;
+  color: #3c583c;
+  margin-bottom: 20px;
+}
+
+.info p {
+  font-size: 16px;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
